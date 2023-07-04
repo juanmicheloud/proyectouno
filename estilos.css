@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navbar{
+    background-color: rgb(228, 137, 27);
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+
+.jumbotron{
+    background-image: url(multimedia/engineering-1834344_1280.jpg);
+    background-size: cover;
+    height: 150vh;
+    background-position: center;  
+    border-radius: 0!important;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.button{
+    position: relative;
+    top: 143vh;
+    left: 5vh;
+}
+
+
+
+
+.btn-warning{
+    position: relative;
+    top: 143vh;
+    left: 5vh; 
+
+}
+
+.btn-warning:hover{
+    background-color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+h2{
+    background-color: rgb(228, 137, 27);
+    padding: 10px;
+    text-align: center;
+}
+
+.nleft{
+    background-image: url(multimedia/foto\ molino2.png);
+    background-size: cover;
+    height: 100vh;
+    position:relative;
+    
+
+
+}
+
+.tnos{
+    background-color: rgb(228, 137, 27);
+    size: 80vh;
+    text-align: center;
+    border-radius: 10%; 
+
+}
+
+.texto{
+    padding-top: 10%;
+}
+
+
+
+.p{
+    padding: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    position: relative;
+    top: 100px;
+}
+
+
+.item{
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: auto;
+    border: 3px solid color white;
+    
+}
+
+
+.item1{
+    background-image:url(multimedia/linea-tiempo-acopio-secado.jpg);
+}
+
+.item2{
+    background-image: url(multimedia/wheat-8762_1280.jpg);
+}
+.item3{
+    background-image: url(multimedia/soybean-1831703_1280.jpg);
+}
+.item4{
+    background-image: url(multimedia/cows-1029077_1280.jpg);
+}
+.item5{
+    background-image: url(multimedia/chicken-2205233_1280.jpg);
+}
+.item6{
+    background-image: url(multimedia/bird-349026_1280.jpg);
+}
+.item7{
+    background-image: url(multimedia/brewery-377019_1280.jpg);
+}
+.item8{
+    background-image: url(multimedia/soybean-1831703_1280.jpg)
+}
+.item9{
+    background-image: url(multimedia/hen-5642953_1280.jpg);
+}
+.item10{
+    background-image: url(multimedia/field-3186902_1280.jpg);
+}
+.item11{
+    background-image: url(multimedia/ganaderia2.jpg);
+}
+.item12{
+    background-image: url(multimedia/pollos\ 3.jpg);
+}
+
+
+/* contacto */
+
+* .htmlcontacto .contenedorc .alaz .futbol .campo22 .campo23 .campo24 .botom {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.htmlcontacto{
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.contenedorc .alaz .futbol {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.contenedorc .alaz .futbol .span24 {
+    color: #e54f09;
+}
+
+.contenedorc {
+    /* background: rgba(204, 179, 34, 0.475); */
+    background-image: url(multimedia/cow-7200409_1280.jpg);
+    background-size: cover ;
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    /* margin-top: 30px; */
+    /* margin: 30px;  */
+    padding-bottom: 50x;
+    border-radius: 3px;
+    justify-content: center;
+}
+
+.contenedorc .campo22 {
+    display: block;
+    color: #f07b15;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.contenedorc .campo23 .campo24 {
+    background: rgba(0,0,0.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #040301;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position:sticky;
+}
+
+.contenedorc .campo24 {
+    resize: vertical;
+    min-height: 150px;
+    min-height: 50px;
+    position: relative;
+}
+
+.contenedorc .botom {
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: none;
+    background: #030100;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedorc .botom:hover {
+    background: #f29718;
+}
+
+
+
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    padding: 30px;
+    text-align: center;
+
+}
+    
