@@ -1,3 +1,5 @@
+/*# sourceMappingURL=estilos.css.map */
+
 *{
     margin: 0;
     padding: 0;
@@ -15,9 +17,10 @@
 
 
 .jumbotron{
-    background-image: url(multimedia/engineering-1834344_1280.jpg);
+    background-image: url(multimedia/ganaderia.jpg);
     background-size: cover;
-    height: 150vh;
+    height: 60vh;
+    width: auto;
     background-position: center;  
     border-radius: 0!important;
     padding: 0;
@@ -31,12 +34,26 @@
 }
 
 
+.card{
+    border: none;
+}
+
+
+.card__title{
+    background-color: #e9a04d;
+}
+
+.card__desc{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
 
 
 .btn-warning{
     position: relative;
-    top: 143vh;
-    left: 5vh; 
+    top: 2vh;
+    left: 2vh; 
 
 }
 
@@ -52,24 +69,6 @@ h2{
     background-color: rgb(228, 137, 27);
     padding: 10px;
     text-align: center;
-}
-
-.nleft{
-    background-image: url(multimedia/foto\ molino2.png);
-    background-size: cover;
-    height: 100vh;
-    position:relative;
-    
-
-
-}
-
-.tnos{
-    background-color: rgb(228, 137, 27);
-    size: 80vh;
-    text-align: center;
-    border-radius: 10%; 
-
 }
 
 .texto{
@@ -134,6 +133,10 @@ h2{
 .item12{
     background-image: url(multimedia/pollos\ 3.jpg);
 }
+
+
+/* nosotros */
+
 
 
 /* contacto */

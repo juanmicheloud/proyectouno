@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgb(228, 137, 27);
+
+    &-toggler {
+        border: none;
+    }
+}
+
+.jumbotron {
+    background-image: url(multimedia/ganaderia.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: auto;
+    background-position: center;
+    border-radius: 0 !important;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.button {
+    position: relative;
+    top: 143vh;
+    left: 5vh;
+}
+
+.card {
+    border: none;
+
+    &__title {
+        background-color: #e9a04d;
+    }
+
+    &__desc {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
+
+.btn-warning {
+    position: relative;
+    top: 2vh;
+    left: 2vh;
+
+    &:hover {
+        background-color: rgb(255, 255, 255);
+        font-weight: 800;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+h2 {
+    background-color: rgb(228, 137, 27);
+    padding: 10px;
+    text-align: center;
+}
+
+.texto {
+    padding-top: 10%;
+}
+
+.p {
+    padding: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    position: relative;
+    top: 100px;
+}
+
+.item {
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: auto;
+    border: 3px solid color white;
+
+    &1 {
+        background-image: url(multimedia/linea-tiempo-acopio-secado.jpg);
+    }
+
+    &2 {
+        background-image: url(multimedia/wheat-8762_1280.jpg);
+    }
+
+    &3 {
+        background-image: url(multimedia/soybean-1831703_1280.jpg);
+    }
+
+    &4 {
+        background-image: url(multimedia/cows-1029077_1280.jpg);
+    }
+
+    &5 {
+        background-image: url(multimedia/chicken-2205233_1280.jpg);
+    }
+
+    &6 {
+        background-image: url(multimedia/bird-349026_1280.jpg);
+    }
+
+    &7 {
+        background-image: url(multimedia/brewery-377019_1280.jpg);
+    }
+
+    &8 {
+        background-image: url(multimedia/soybean-1831703_1280.jpg);
+    }
+
+    &9 {
+        background-image: url(multimedia/hen-5642953_1280.jpg);
+    }
+
+    &10 {
+        background-image: url(multimedia/field-3186902_1280.jpg);
+    }
+
+    &11 {
+        background-image: url(multimedia/ganaderia2.jpg);
+    }
+
+    &12 {
+        background-image: url(multimedia/pollos\ 3.jpg);
+    }
+}
+
+/* nosotros */
+
+/* contacto */
+
+.htmlcontacto {
+    background-size: cover;
+    background-attachment: fixed;
+
+    & .contenedorc {
+        background-image: url(multimedia/cow-7200409_1280.jpg);
+        background-size: cover;
+        width: 90%;
+        max-width: 650px;
+        margin: auto;
+        padding: 5px 35px;
+        padding-bottom: 50px;
+        border-radius: 3px;
+        justify-content: center;
+
+        & .alaz {
+            font-weight: normal;
+            font-family: sans-serif;
+            color: #fff;
+            text-align: center;
+            padding: 14px 0;
+
+            & .futbol {
+                font-size: 16px;
+                font-family: Arial, Helvetica, sans-serif;
+                position: relative;
+
+                & .span24 {
+                    color: #e54f09;
+                }
+            }
+        }
+
+        & .campo22 {
+            display: block;
+            color: #f07b15;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            position: relative;
+        }
+
+        & .campo23,
+        & .campo24 {
+            background: rgba(0, 0, 0.7);
+            border: none;
+            outline: none;
+            border-bottom: 2px solid #040301;
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border-radius: 2px;
+            font-size: 14px;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            position: sticky;
+        }
+
+        & .campo24 {
+            resize: vertical;
+            min-height: 150px;
+            min-height: 50px;
+            position: relative;
+        }
+
+        & .botom {
+            width: 100%;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            outline: none;
+            background: #030100;
+            font-size: 16px;
+            border: none;
+            color: #fff;
+            padding: 15px 0;
+            cursor: pointer;
+            transition: all .5s ease;
+
+            &:hover {
+                background: #f29718;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: black;
+    color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    padding: 30px;
+    text-align: center;
+}
