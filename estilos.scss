@@ -22,6 +22,77 @@
     margin-bottom: 0;
 }
 
+.card__desc {
+    text-align: center;
+    font-weight: 300;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.col-md-6 {
+    background-color: #e9a04d;
+    padding-top: 4px;
+}
+
+ul.detalle {
+    margin: 0 !important;
+}
+
+.linea {
+    background-color: #e9a04d
+}
+
+/* whatsapp */
+.container-boton {
+
+    background-color: #2e6329;
+    border: 0.5px;
+    border-radius: 60%;
+    position: fixed;
+    z-index: 999;
+    bottom: 20px;
+    right: 25px;
+    transition: ease 0, 3s;
+    animation: efecto 1.2s infinite;
+}
+
+.containter-boton:hover {
+    transform: scale(1.1);
+    transition: 0, 3s;
+}
+
+.boton {
+    width: 50px;
+    transition: ease 1s;
+}
+
+@keyframes efecto {
+    0% {
+        box-shadow: 0 0 0 0 rgb(0, 0, 0, 0.85);
+    }
+
+    100% {
+        box-shadow: 0 0 0 25px rgb(0, 0, 0, 0);
+    }
+}
+
+/* whatsap */
+
+.linea {
+    text-align: center;
+}
+
+.detalle {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.linea {
+    background-color: #e9a04d;
+}
+
+
+
 .button {
     position: relative;
     top: 143vh;
@@ -130,7 +201,7 @@ h2 {
 /* nosotros */
 
 .nosotros {
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 
@@ -138,10 +209,11 @@ h2 {
 
 .htmlcontacto {
     background-size: cover;
-    background-attachment: fixed;
+    // background-attachment: fixed;
+    background-image: url(multimedia/wheat-8762_1280.jpg);
 
     & .contenedorc {
-        background-image: url(multimedia/cow-7200409_1280.jpg);
+        // background-image: url(multimedia/cow-7200409_1280.jpg);
         background-size: cover;
         width: 90%;
         max-width: 650px;
@@ -158,8 +230,9 @@ h2 {
             text-align: center;
             padding: 14px 0;
 
+
             & .futbol {
-                font-size: 16px;
+                font-size: 50px;
                 font-family: Arial, Helvetica, sans-serif;
                 position: relative;
 

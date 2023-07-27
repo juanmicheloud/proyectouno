@@ -20,51 +20,67 @@
   padding: 0;
   margin-bottom: 0;
 }
-/* whatsapp */
-.container-boton{
 
+.card__desc {
+  text-align: center;
+  font-weight: 300;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.col-md-6 {
+  background-color: #e9a04d;
+  padding-top: 4px;
+}
+
+ul.detalle {
+  margin: 0 !important;
+}
+
+.linea {
+  background-color: #e9a04d;
+}
+
+/* whatsapp */
+.container-boton {
   background-color: #2e6329;
-  border:0.5px;
+  border: 0.5px;
   border-radius: 60%;
   position: fixed;
   z-index: 999;
   bottom: 20px;
   right: 25px;
-  transition: ease 0,3s;
+  transition: ease 0, 3s;
   animation: efecto 1.2s infinite;
 }
 
-.containter-boton:hover{
+.containter-boton:hover {
   transform: scale(1.1);
-  transition: 0,3s;
+  transition: 0, 3s;
 }
 
-.boton{
+.boton {
   width: 50px;
   transition: ease 1s;
 }
 
-@keyframes efecto{
-    0%{
-      box-shadow: 0 0 0 0 rgb(0, 0, 0, 0.85);
-    }
-
-    100%{
-      box-shadow: 0 0 0 25px rgb(0, 0, 0, 0);
-    }
+@keyframes efecto {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.85);
+  }
+  100% {
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+  }
 }
 /* whatsap */
-
-.linea{
+.linea {
   text-align: center;
 }
 
-.detalle{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.detalle {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-
-.linea{
+.linea {
   background-color: #e9a04d;
 }
 
@@ -104,8 +120,6 @@ h2 {
 .texto {
   padding-top: 10%;
 }
-
-
 
 .p {
   padding: 18px;
@@ -159,18 +173,17 @@ h2 {
   background-image: url(multimedia/pollos\ 3.jpg);
 }
 
-
+/* nosotros */
 .nosotros {
-  padding-top: 70px;
+  padding-top: 20px;
 }
 
-
+/* contacto */
 .htmlcontacto {
   background-size: cover;
-  background-attachment: fixed;
+  background-image: url(multimedia/wheat-8762_1280.jpg);
 }
 .htmlcontacto .contenedorc {
-  background-image: url(multimedia/cow-7200409_1280.jpg);
   background-size: cover;
   width: 90%;
   max-width: 650px;
@@ -188,7 +201,7 @@ h2 {
   padding: 14px 0;
 }
 .htmlcontacto .contenedorc .alaz .futbol {
-  font-size: 16px;
+  font-size: 50px;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
 }
