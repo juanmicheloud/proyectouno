@@ -178,6 +178,10 @@ h2 {
   padding-top: 20px;
 }
 
+.row {
+  margin-right: 0;
+}
+
 /* contacto */
 .htmlcontacto {
   background-size: cover;
