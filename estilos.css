@@ -47,7 +47,7 @@ ul.detalle {
   border-radius: 60%;
   position: fixed;
   z-index: 999;
-  bottom: 20px;
+  bottom: 50px;
   right: 25px;
   transition: ease 0, 3s;
   animation: efecto 1.2s infinite;
@@ -178,7 +178,7 @@ h2 {
   padding-top: 20px;
 }
 
-.row {
+.box-nosotros .row {
   margin-right: 0;
 }
 
@@ -214,10 +214,11 @@ h2 {
 }
 .htmlcontacto .contenedorc .campo22 {
   display: block;
-  color: #f07b15;
-  font-size: 16px;
+  color: #080401;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
+  font-weight: 500;
 }
 .htmlcontacto .contenedorc .campo23, .htmlcontacto .contenedorc .campo24 {
   background: rgb(0, 0, 1);
@@ -260,6 +261,6 @@ footer {
   color: blanchedalmond;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: small;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
 }/*# sourceMappingURL=estilos.css.map */
